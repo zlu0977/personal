@@ -17,9 +17,9 @@ public class CardEngine {
 		float timer1 = System.currentTimeMillis();
 		cardDeck = shuffleDeckRecursive(cardDeck, new LinkedList<Card>());
 		//shuffleDeck(cardDeck);
-		float timer2 = System.currentTimeMillis();
-		System.out.println(cardDeck.getLast().value);
-		System.out.println(timer2 - timer1);
+		//float timer2 = System.currentTimeMillis();
+		//System.out.println(cardDeck.getLast().value);
+		//System.out.println(timer2 - timer1);
 	}
 	
 	public static void createDeck(LinkedList<Card> deck)
